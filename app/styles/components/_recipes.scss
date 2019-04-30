@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+// Container
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+// CARD
+.card {
+  background-color: #4CAF50;
+  width: 18rem;
+  display: inline-block;
+  padding: 1rem;
+  margin:1.5rem 0.37rem;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #333;
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+//IMG ON CARD
+img {
+  border-radius: 10px;
+  display: inline-block;
+  width: 17rem;
+}
+
+// NAME OF RECIPE
+h4 {
+  margin: 0.5rem;
+  color: white;
+  font-size: 1.8rem;
+  font-family: 'Niconne', cursive;
+}
+
+//BUTTON TO RECIPE'S INGREDIENTS
+button{
+  background-color: #333;
+  border-radius: 7px;
+  border: 1px solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color:#111;
+}
